@@ -73,8 +73,10 @@ resource "azurerm_netapp_volume" "anf_nfs_vol_2" {
   }
 
 }
-/*
+
+# Included below are examples of SMB volumes. If you would like to create CIFS volumes simply uncommented this section.
 # Create Azure NetApp Files SMB Volume 1
+/*
 resource "azurerm_netapp_volume" "anf_smb_vol_1" {
 
   lifecycle {
