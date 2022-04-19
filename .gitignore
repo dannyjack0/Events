@@ -27,3 +27,5 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+.DS_Store
+Microsoft Cloud South Coast User Group/.DS_Store
