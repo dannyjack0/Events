@@ -1,6 +1,6 @@
 # Create Azure NetApp Files NFS Volume 1
 resource "azurerm_netapp_volume" "anf_nfs_vol_1" {
- 
+
   lifecycle {
     prevent_destroy = false
   }
@@ -34,7 +34,7 @@ resource "azurerm_netapp_volume" "anf_nfs_vol_1" {
 
 # Create Azure NetApp Files NFS Volume 2
 resource "azurerm_netapp_volume" "anf_nfs_vol_2" {
- 
+
   lifecycle {
     prevent_destroy = false
   }
