@@ -22,5 +22,5 @@ Below is a list of things you will need to complete this lab.
 - An Azure subscription, with credit available, it ain't free :)
 - I use **Chocolatey** to manage my apps, link [HERE](https://chocolatey.org/install)
 - A code editor, I prefer **VSCode**, link [HERE](https://code.visualstudio.com/Download)
-- VSCode extensions helpl as well. I use Terraform, Azure CLI, Powershell, GitHub and few others.
+- VSCode extensions help as well. I use Terraform, Azure CLI, Powershell, GitHub and few others.
 - Latest version of Terraform installed, link [HERE](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
