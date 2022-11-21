@@ -12,6 +12,7 @@ resource "azurerm_netapp_volume" "anf_nfs_vol_1" {
   volume_path         = "${var.vol_path_nfs}-${var.region_1}"
   service_level       = var.service_level_std
   subnet_id           = azurerm_subnet.vnet_1_snet_2.id
+  network_features    = "Standard"
   protocols           = [var.protocol_nfs]
   storage_quota_in_gb = 1024
 
@@ -45,6 +46,7 @@ resource "azurerm_netapp_volume" "anf_nfs_vol_2" {
   volume_path         = "${var.vol_path_nfs}-${var.region_2}"
   service_level       = var.service_level_std
   subnet_id           = azurerm_subnet.vnet_2_snet_2.id
+  network_features    = "Standard"
   protocols           = [var.protocol_nfs]
   storage_quota_in_gb = 1024
 

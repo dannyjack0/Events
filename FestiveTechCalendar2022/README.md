@@ -9,6 +9,7 @@ This year the Festive Tech Calendar Team are raising money for the charity **[mi
 ### Prerequisites - What do you need?
 Below is a list of things you will need to complete this lab.
 - An Azure subscription, with credit available, it ain't free :)
+- The Azure NetApp Files **Resource Provider** registered in your subscription. Link to do that [HERE](https://learn.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register)
 - A code editor, I prefer **VSCode**, link [HERE](https://code.visualstudio.com/Download)
 - VSCode extensions help as well. I use Terraform, Azure CLI, Powershell, GitHub and few others.
 - Latest version of Terraform installed, link [HERE](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
@@ -19,6 +20,7 @@ We are going to build out a lab using Terraform. The lab will include the follow
 - Resource groups
 - Virtual Networks
 - Subnets
+- Virtual Network Peers
 - Virtual Machines
 - Azure Keyvault
 - ANF Accounts
