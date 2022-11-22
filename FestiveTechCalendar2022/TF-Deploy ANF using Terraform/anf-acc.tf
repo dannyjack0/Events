@@ -8,10 +8,10 @@ resource "azurerm_netapp_account" "anf_acc_1" {
   # Uncomment this section if you need to add Active Directory configuration and amend the .tfvars file to suit.
 /*
   active_directory {
-    username            = data.azurerm_key_vault_secret.join.name
-    password            = data.azurerm_key_vault_secret.join.value
+    username            = data.azurerm_key_vault_secret.labadmin.name
+    password            = data.azurerm_key_vault_secret.labadmin.value
     smb_server_name     = var.prefix
-    dns_servers         = [var.dns_server_3]
+    dns_servers         = [var.dns_server_1]
     domain              = var.domain
     organizational_unit = var.ou
   }

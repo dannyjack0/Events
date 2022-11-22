@@ -50,7 +50,7 @@ resource "random_password" "admin_random_password" {
 }
 
 # Create Keyvault Secret
-resource "azurerm_key_vault_secret" "admin_secret" {
+resource "azurerm_key_vault_secret" "labadmin" {
   name         = var.labadmin
   value        = random_password.admin_random_password.result
   key_vault_id = azurerm_key_vault.keyvault.id
