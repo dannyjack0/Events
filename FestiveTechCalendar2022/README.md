@@ -17,7 +17,7 @@ Below is a list of things you will need to complete this lab.
 
 ### What are we going to do?
 We are going to build out a lab using Terraform. The lab will include the following services and features.
-- Resource groups
+- Resource Groups
 - Virtual Networks
 - Subnets
 - Virtual Network Peers
