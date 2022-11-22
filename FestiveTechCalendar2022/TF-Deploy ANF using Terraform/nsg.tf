@@ -5,7 +5,7 @@ data "http" "clientip" {
 
 # Create Network Security Group Region 1
 resource "azurerm_network_security_group" "nsg_1" {
- /* depends_on = [azurerm_windows_virtual_machine.vm1,
+  /* depends_on = [azurerm_windows_virtual_machine.vm1,
     azurerm_windows_virtual_machine.vm2,
     azurerm_linux_virtual_machine.vm3,
     azurerm_linux_virtual_machine.vm4

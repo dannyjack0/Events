@@ -6,7 +6,7 @@ resource "azurerm_netapp_account" "anf_acc_1" {
 
   # Acitve Directory configuration. 
   # Uncomment this section if you need to add Active Directory configuration and amend the .tfvars file to suit.
-/*
+  /*
   active_directory {
     username            = data.azurerm_key_vault_secret.labadmin.name
     password            = data.azurerm_key_vault_secret.labadmin.value
