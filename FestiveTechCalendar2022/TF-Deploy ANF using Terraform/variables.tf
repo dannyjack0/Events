@@ -68,16 +68,6 @@ variable "dns_server_2" {
   default     = ""
 }
 
-variable "dns_server_3" {
-  description = "DNS Server"
-  default     = ""
-}
-
-variable "dns_server_4" {
-  description = "DNS Server"
-  default     = ""
-}
-
 variable "dns_server_azure" {
   description = "DNS Server"
   default     = ""
@@ -126,24 +116,6 @@ variable "vm2_name" {
   description = "VM2 name"
   default     = ""
 }
-variable "vm3_name" {
-  description = "VM3 name"
-  default     = ""
-}
-variable "vm4_name" {
-  description = "VM4 name"
-  default     = ""
-}
-
-variable "vm1_sql_name" {
-  description = "VM SQL 1 name"
-  default     = ""
-}
-
-variable "vm2_sql_name" {
-  description = "VM SQL 1 name"
-  default     = ""
-}
 
 variable "pip_allocation" {
   description = "pip ip allocation"
@@ -177,22 +149,12 @@ variable "vm1_ip_address" {
   description = "Disk size"
   default     = ""
 }
+
 variable "vm2_ip_address" {
   description = "Disk size"
   default     = ""
 }
-variable "vm3_ip_address" {
-  description = "Disk size"
-  default     = ""
-}
-variable "vm4_ip_address" {
-  description = "Disk size"
-  default     = ""
-}
-variable "vm1_sql_ip_address" {
-  description = "Disk size"
-  default     = ""
-}
+
 variable "vm1_size" {
   description = "VM Size"
   default     = ""
@@ -201,18 +163,7 @@ variable "vm2_size" {
   description = "VM Size"
   default     = ""
 }
-variable "vm3_size" {
-  description = "VM Size"
-  default     = ""
-}
-variable "vm4_size" {
-  description = "VM Size"
-  default     = ""
-}
-variable "vm1_sql_size" {
-  description = "VM Size"
-  default     = ""
-}
+
 variable "vm1_publisher" {
   description = "VM Publisher"
   default     = ""
@@ -221,18 +172,7 @@ variable "vm2_publisher" {
   description = "VM Publisher"
   default     = ""
 }
-variable "vm3_publisher" {
-  description = "VM Publisher"
-  default     = ""
-}
-variable "vm4_publisher" {
-  description = "VM Publisher"
-  default     = ""
-}
-variable "vm1_sql_publisher" {
-  description = "VM Publisher"
-  default     = ""
-}
+
 variable "vm1_offer" {
   description = "VM Offer"
   default     = ""
@@ -241,18 +181,7 @@ variable "vm2_offer" {
   description = "VM Offer"
   default     = ""
 }
-variable "vm3_offer" {
-  description = "VM Offer"
-  default     = ""
-}
-variable "vm4_offer" {
-  description = "VM Offer"
-  default     = ""
-}
-variable "vm1_sql_offer" {
-  description = "VM Offer"
-  default     = ""
-}
+
 variable "vm1_sku" {
   description = "VM SKU"
   default     = ""
@@ -261,38 +190,17 @@ variable "vm2_sku" {
   description = "VM SKU"
   default     = ""
 }
-variable "vm3_sku" {
-  description = "VM SKU"
-  default     = ""
-}
-variable "vm4_sku" {
-  description = "VM SKU"
-  default     = ""
-}
-variable "vm1_sql_sku" {
-  description = "VM SKU"
-  default     = ""
-}
+
 variable "vm1_version" {
   description = "VM Version"
   default     = ""
 }
+
 variable "vm2_version" {
   description = "VM Version"
   default     = ""
 }
-variable "vm3_version" {
-  description = "VM Version"
-  default     = ""
-}
-variable "vm4_version" {
-  description = "VM Version"
-  default     = ""
-}
-variable "vm1_sql_version" {
-  description = "VM Version"
-  default     = ""
-}
+
 variable "domain" {
   description = "AD Domain Name"
   default     = ""
@@ -318,22 +226,12 @@ variable "vol_path_nfs" {
   default     = ""
 }
 
-variable "vol_path_smb" {
-  description = "NFS Volume Path"
-  default     = ""
-}
-
 variable "service_level_std" {
   description = "ANF Service Level"
   default     = ""
 }
 
 variable "protocol_nfs" {
-  description = "Volume Protocol"
-  default     = ""
-}
-
-variable "protocol_smb" {
   description = "Volume Protocol"
   default     = ""
 }
