@@ -29,5 +29,4 @@ We are going to build out a lab using Terraform. The lab will include the follow
 
 ### Schematic
 Below is a high-level visual overview of what we are going to deploy into Azure.
----
-![Terraform Lab - FTC 2022]("FestiveTechCalendar2022/TF-Deploy ANF using Terraform/images/TerraformLab-FTC2022.png")
+<img src="/TF-Deploy ANF using Terraform/images/TerraformLab-FTC2022.png">
