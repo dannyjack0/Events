@@ -29,4 +29,4 @@ We are going to build out a lab using Terraform. The lab will include the follow
 
 ### Schematic
 Below is a high-level visual overview of what we are going to deploy into Azure.
-![alt Terraform Lab - FTC 2022](./images/TerraformLab-FTC2022.png)
+![alt Terraform Lab - FTC 2022]("TFDeploy ANF using Terraform/images/TerraformLab-FTC2022.png")
